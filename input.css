@@ -2,3 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Humbeerger menu */
+
+.humburger {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    transition: all 0.25s;
+    position: relative;
+}
+
+.humburger-top,
+.humburger-middle,
+.humburger-bottom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 2px;
+    background: #000000;
+    transform: rotate(0);
+    transition: all 0.5s;
+}
+
+.humburger-middle {
+    transform: translateY(7px);
+}
+
+.humburger-top {
+    transform: translateY(14px);
+}
+
+.open {
+    transform: rotate(90deg);
+    transform: rotateY(0px);
+}
+
+.open .humburger-top {
+    transform: rotate(45deg) translateY(6px) translate(6px);
+}
+
+.open .humburger-middle {
+    display: none;
+}
+
+.open .humburger-bottom {
+    transform: rotate(-45deg) translateY(6px) translate(-6px);
+}

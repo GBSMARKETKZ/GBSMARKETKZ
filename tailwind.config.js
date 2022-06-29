@@ -9,6 +9,11 @@ module.exports = {
     },
     extend: {
       colors: {
+        bluePeppermint: '#F1FAEE',
+        blueCello: '#1D3557',
+        orangeBittersweet: '#FF6760',
+        
+
         brightRed: 'hsl(12, 88%, 59%)',
         brightRedLight: 'hsl(12, 88%, 69%)',
         brightRedSupLight: 'hsl(12, 88%, 95%)',
