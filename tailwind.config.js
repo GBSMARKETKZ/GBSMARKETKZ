@@ -12,6 +12,7 @@ module.exports = {
         bluePeppermint: '#F1FAEE',
         blueCello: '#1D3557',
         orangeBittersweet: '#FF6760',
+        grayWaikawa: "#5B7395",
         
 
         brightRed: 'hsl(12, 88%, 59%)',
