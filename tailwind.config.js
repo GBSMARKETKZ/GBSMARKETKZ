@@ -11,6 +11,7 @@ module.exports = {
       colors: {
         bluePeppermint: '#F1FAEE',
         blueCello: '#1D3557',
+        blueRoyal: '#4C4BF4',
         orangeBittersweet: '#FF6760',
         grayWaikawa: "#5B7395",
         
