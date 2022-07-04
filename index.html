@@ -41,7 +41,7 @@
             </div>
 
              <!-- Menu-Mobile -->
-            <div id="menu" class="absolute hidden w-full flex-col items-center drop-shadow-md self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6">
+            <div id="menu" class="absolute hidden w-full flex-col items-center drop-shadow-md self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center">
                     <a href="#testimonials" class="hover:text-grayWaikawa">Возможности</a>
                     <a href="#price" class="hover:text-grayWaikawa">Стоимость</a>
                     <a href="#cta" class="hover:text-grayWaikawa">Контакты</a>
@@ -62,7 +62,7 @@
                     Установка с оборудованием и обучением персонала от 40 000 тг
                 </div>
                 <div class="flex justify-center md:justify-start">
-                    <a href="" class="py-3 px-4 text-white bg-orangeBittersweet 
+                    <a id="video-btn" href="" class="py-3 px-4 text-white bg-orangeBittersweet 
                     rounded-full hover:bg-brightRedLight md:block">
                     <span class="float-left pr-1">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -591,6 +591,28 @@
     </div>
     </div>
   </footer>
+<!--Overlay Effect-->
+<div
+  id="video-modal"
+	class="hidden fixed inset-0 bg-gray-800 bg-opacity-80 overflow-y-auto pt-16 h-full w-full"
+>
+<button id="video-close-button" 
+        class="absolute right-4 top-4 block focus:outline-none text-white">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+</button>
+<div class="container mx-auto">
+  <div class="flex items-center justify-center aspect-w-16 aspect-h-9">
+    <iframe 
+      src="https://www.youtube.com/embed/1w42H30jQ3M" 
+      title="YouTube video player" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+  </div>
+</div>
+</div>  
 <script src="js/script.js"></script>
 </body>
 </html>
